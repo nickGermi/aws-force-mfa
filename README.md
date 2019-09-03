@@ -20,20 +20,20 @@
 
 You'll need to call AWS STS service in order to request a new set of temporary credentials while also providing the MFA token. Provided scripts will assist you in doing so.
 
-- authenticate.sh for BASH (requires [JQ](http://jq.io))
+- authenticate.sh for BASH (requires [JQ](https://stedolan.github.io/jq/))
     ```
     chmod +x authenticate.sh
     ./authenticate.sh
     ```
 
-- authenticate.sh for OSX (requires [JQ](http://jq.io))
+- authenticate.sh for OSX (requires [JQ](https://stedolan.github.io/jq/))
     ```
     chmod +x authenticate.sh
     source ./authenticate.sh
     ```
 
 - authenticate.ps1 for PowerShell
--   ```
+    ```
     .\authenticate.ps1
     ```
 
@@ -44,7 +44,7 @@ You'll need to call AWS STS service in order to request a new set of temporary c
 
 #### References
 * [AWS-CLI](https://aws.amazon.com/cli/) - AWS Command line interface
-* [JQ](http://jq.io) - JSON Parser
+* [JQ](https://stedolan.github.io/jq/) - JSON Parser
 
 License
 ----
