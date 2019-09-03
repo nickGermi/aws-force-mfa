@@ -1,13 +1,13 @@
-# Enforce multifactor authentication for AWS IAM Console & CLI users
+## Enforce multi-factor authentication for AWS IAM Console & CLI users
+
+##### Instructions to enforce MFA for IAM users for Admins
+1. Attach provided [IAM policy](Enforce_MFA_IAM_Policy.json) for applicable IAM users
 
 ##### Instructions to enable MFA on AWS Console for IAM users
 1. Login to AWS Console using your credentials (It's ok to see Unauthorized errors within the page)
 2. Click on your name on top right corner and select My Security Credentials or once logged-in, navigate to https://console.aws.amazon.com/iam/home?#my_password
 3. Add MFA Device (Either hardware or virtual such as Microsoft Authenticator or Okta-Verify)
 4. Make a note of your MFA device ARN if you wish to use AWS CLI
-
-##### Instructions to enforce MFA for IAM users for Admins
-1. Attach provided [IAM policy](Enforce_MFA_IAM_Policy.json) for applicable IAM users
 
 ###### Notes
 - Once enabled, users cannot disable MFA!
